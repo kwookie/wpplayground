@@ -50,7 +50,7 @@ function custom_settings_page() { ?>
   </div>
 <?php }
 
-// Twitter
+// Twitt
 function setting_twitter() { ?>
   <input type="text" name="twitter" id="twitter" value="<?php echo get_option( 'twitter' ); ?>" />
 <?php }
