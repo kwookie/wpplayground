@@ -28,6 +28,8 @@ add_action('wp_print_styles', 'bootking_google_fonts');
 
 // WordPress Titles
 add_theme_support( 'title-tag' );
+// Support Featured Images
+add_theme_support( 'post-thumbnails' );
 
 
 // Custom Settings
@@ -50,7 +52,7 @@ function custom_settings_page() { ?>
   </div>
 <?php }
 
-// Twitt
+// Twitter
 function setting_twitter() { ?>
   <input type="text" name="twitter" id="twitter" value="<?php echo get_option( 'twitter' ); ?>" />
 <?php }
